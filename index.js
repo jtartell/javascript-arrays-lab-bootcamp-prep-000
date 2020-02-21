@@ -20,8 +20,8 @@ function destructivelyRemoveLastKitten() {
 }
 console.log(kittens)
 
-
-
+function destructivelyRemoveFirstKitten()
+  return
   describe('destructivelyRemoveFirstKitten()', function() {
     it('removes the First kitten from the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
