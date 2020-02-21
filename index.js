@@ -32,7 +32,8 @@ function prependKitten() {
   return ["Arnold",...kittens]
 }
 
-function 
+function removeLastKitten()
+  return kitten.slice()
   describe('removeLastKitten()', function() {
     it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
