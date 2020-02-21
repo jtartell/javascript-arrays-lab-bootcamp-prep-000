@@ -28,5 +28,6 @@ console.log(kittens)
 function appendKitten() {
   return [...kittens, "Broom"] }
 
-
-
+function prependKitten() {
+  return ["Arnold", kittens]
+}
